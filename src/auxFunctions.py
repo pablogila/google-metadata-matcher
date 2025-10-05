@@ -35,6 +35,7 @@ def searchMedia(path, title, editedWord):
 
     possible_titles = [
         title,
+        file_name,
         str(file_name + "-" + editedWord + "." + ext),
         str(file_name + "(1)." + ext),
     ]

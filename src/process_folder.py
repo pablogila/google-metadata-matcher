@@ -1,7 +1,8 @@
 import os
 from auxFunctions import *
 import json
-from PIL import Image
+from PIL import Image, ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 from pillow_heif import register_heif_opener
 
 register_heif_opener()
